@@ -12,15 +12,55 @@
 		<link href="unity.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 	</head>
+	<!-- What color should the background be? I was thinking that maybe it should stay black, but I'm not the best at being designing.!-->
 	<body>
-		<div class="container">
+		<div class="container" id="reciever">
+		<!--Add margins to the container !-->
 			<div class="row">
 				<div class="col-sm-12">
+					<!--Textalign: Center.
+						Also, please find a better font, I don't think that this one is the best for this kind of thing.
+					!-->
+					<h1>SIGNAL TO NOISE</h1>
 				</div>
+			</div>
+			<!-- Username Block !-->
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-sm-4">
+							<label for="InputUser">Username</label>
+						</div>
+						<div class="col-sm-8">
+							<input type="username" class="form-control" id="InputUser" placeholder="Username">
+						</div>
+					</div>
+				</div>		
 				<!--Hey mate this is the end of the column !-->
 			</div>
-			<!--Hey mate this is the end of the 1st row !-->
-,		</div>
+			<!-- Password Block !-->
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-sm-4">
+							<label for="InputPassword">Password</label>
+						</div>
+						<div class="col-sm-8">
+							<input type="username" class="form-control" id="InputPassword" placeholder="Password">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Hey mate this is the end of the 2nd row !-->
+			<div class="row">
+				<div class="col-sm-6">
+					<p>Forgot username or password</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Register a new thing</p>
+				</div>
+			</div>
+		</div>
 	</body>
 	</div>
 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
